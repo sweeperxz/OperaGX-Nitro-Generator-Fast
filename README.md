@@ -11,11 +11,11 @@ OperaGX-Nitro-Generator is a .NET console application designed for efficient and
 
 ## Features
 
-- **Web Proxy Integration**: MyConsoleApp supports web proxy usage, allowing users to route their requests through proxies for enhanced security, anonymity, and versatility.
+- **Web Proxy Integration**: Generator supports web proxy usage, allowing users to route their requests through proxies for enhanced security, anonymity, and versatility.
 
 - **Multithreading**: The application utilizes multithreading to perform asynchronous HTTP requests concurrently. This approach significantly improves the speed of request execution and ensures efficient resource utilization.
 
-- **Configurability**: MyConsoleApp is easily configurable, allowing users to specify the number of requests per iteration, the number of iterations, and the delay between requests. This flexibility ensures adaptability to various use cases.
+- **Configurability**: Generator is easily configurable, allowing users to specify the number of requests per iteration, the number of iterations, and the delay between requests. This flexibility ensures adaptability to various use cases.
 
 - **Service Dependency Injection**: The project adopts the Microsoft.Extensions.DependencyInjection framework, facilitating the management of services and promoting a clean and modular code structure.
 
@@ -23,12 +23,12 @@ OperaGX-Nitro-Generator is a .NET console application designed for efficient and
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/MyConsoleApp.git
+   git clone https://github.com/sweeperxz/OperaGX-Nitro-Generator-Fast.git
    ```
 2. **Build and Run:**
 
    ```bash
-   cd MyConsoleApp
+   cd OperaGX-Nitro-Generator-Fast
    dotnet build
    dotnet run
    ```
