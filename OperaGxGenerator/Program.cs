@@ -111,7 +111,7 @@ internal class RequestPerformer
             var tokenResult = await ParseResponseAsync(response).ConfigureAwait(false);
 
             var split =
-                "https://discord.com/billing/partner-promotions/1180231712274387115https://discord.com/billing/partner-promotions/1180231712274387115/" +
+                "https://discord.com/billing/partner-promotions/1180231712274387115" +
                 tokenResult.token;
 
             Interlocked.Increment(ref Program.Counter);
